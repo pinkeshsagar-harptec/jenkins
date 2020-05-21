@@ -13,5 +13,17 @@ pipeline {
       }
     }
 
+    stage('PreDeploy') {
+      steps {
+        bat(script: 'md run\\Configurations run\\Scripts run\\Services  @echo off  @echo This is jar file content of the file > Scripts\\zRun_Standalone_MAA_Service.bat  xcopy /s /i target\\JsonParser run\\Services\\', encoding: 'UTF-8')
+      }
+    }
+
+    stage('Deploy') {
+      steps {
+        bat(script: 'START run\\Scripts\\zRun_Standalone_MAA_Service.bat', encoding: 'UTF-8')
+      }
+    }
+
   }
 }
