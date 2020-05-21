@@ -1,0 +1,17 @@
+{
+  "cost" : 10,
+  "titles" : [ {
+    "titles" : [ "Sayings of the Century", "Sword of Honour", "Moby Dick", "The Lord of the Rings" ]
+  }, {
+    "author" : [ "Nigel Rees", "Evelyn Waugh", "Herman Melville", "J. R. R. Tolkien" ]
+  } ],
+  "bicycle" : {
+    "bicycle" : {
+      "color" : "red",
+      "price" : 19.95
+    }
+  },
+  "bookCategory" : [ {
+    "bookCategory" : [ "reference", "fiction", "fiction", "fiction" ]
+  } ]
+}

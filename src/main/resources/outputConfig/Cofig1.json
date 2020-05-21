@@ -1,0 +1,17 @@
+{
+  "expensive": "$.expensive",
+  "price": [
+    {
+      "price" : "$.store.book[*].price"
+    }
+  ],
+  "color" : "$.store.bicycle.color",
+  "bicycle": {
+    "bicycle": "$.store.bicycle"
+  },
+  "books": [
+    {
+      "books": "$.store.book[*]"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "source": "$.source",
+  "entities": {
+    "entities": "$.entities"
+  },
+  "retweeted_status": [
+    {
+      "user_mention": "$.retweeted_status.entities.user_mentions[*]"
+    },
+    {
+      "hashtags" : "$.retweeted_status.entities.hashtags[*]"
+    }
+  ],
+  "userDetail":[
+    {
+      "id":"$.user.id"
+    },
+    {
+      "profile_image_url":"$.user.profile_image_url"
+    }
+  ]
+}

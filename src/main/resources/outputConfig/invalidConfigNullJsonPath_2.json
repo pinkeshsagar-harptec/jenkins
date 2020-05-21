@@ -1,0 +1,19 @@
+{
+  "cost": "$.expensive",
+  "titles": [
+    {
+      "titles" : "$.store.book[*].title"
+    },
+    {
+      "author" : "$.store.book[*].author"
+    }
+  ],
+  "bicycle": {
+    "bicycle": null
+  },
+  "bookCategory": [
+    {
+      "bookCategory": "$.store.book[*].category"
+    }
+  ]
+}
